@@ -1,7 +1,14 @@
-| Issue Stats | [![Issue Stats](http://issuestats.com/github/SonarOpenCommunity/sonar-cxx/badge/pr)](http://issuestats.com/github/SonarOpenCommunity/sonar-cxx) | [![Issue Stats](http://issuestats.com/github/SonarOpenCommunity/sonar-cxx/badge/issue)](http://issuestats.com/github/SonarOpenCommunity/sonar-cxx) |
-| --- | --- | --- |
-| **Travis CI** (Linux Build and Integration Tests) | [![Build Status](https://travis-ci.org/SonarOpenCommunity/sonar-cxx.svg?branch=master)](https://travis-ci.org/SonarOpenCommunity/sonar-cxx) |   |
-| **AppVeyor CI** (Windows Build and Deployment) | [![Build status](https://ci.appveyor.com/api/projects/status/f6p12h9n59w01770/branch/master?svg=true)](https://ci.appveyor.com/project/SonarOpenCommunity/sonar-cxx/branch/master) | [Download](https://ci.appveyor.com/project/SonarOpenCommunity/sonar-cxx/branch/master/artifacts) |
+## SONARQUBE™ C++ Community plugin with SourceMeter support
+
+*FrontEndART* **[SourceMeter](https://www.sourcemeter.com/)** is a command line source code analyzer tool, which can perform **deep static analysis** of the source code of complex software systems written in **C/C++**, **Java**, **Python**, and **RPG**. [FrontEndART](https://www.frontendart.com/) offers also a **free version** of SourceMeter.
+
+This repository is a fork of the popular [SONARQUBE™ C++ Community plugin](https://github.com/SonarOpenCommunity/sonar-cxx) version [V0.9.5](https://github.com/SonarOpenCommunity/sonar-cxx/releases/tag/cxx-0.9.5) with a small modification of making it compatible with the [SourceMeter plug-in for SONARQUBE™ platform](https://github.com/FrontEndART/SonarQube-plug-in), by disabling the source code analysis engine, but preserving all other features.
+
+Using the two plug-ins together has the advantage of using FrontEndART's high-end C/C++ source code analysis engine and the community plugin's nice additional [features](https://github.com/SonarOpenCommunity/sonar-cxx/wiki/Description---Features) together.
+
+The following text is the original README of the community plugin.
+
+---
 
 ## SonarQube C++ Community plugin
 

@@ -398,11 +398,11 @@ public final class CxxPlugin extends SonarPlugin {
   @Override
   public List getExtensions() {
     List<Object> l = new ArrayList<>();
-    l.add(CxxProjectBuilder.class);
-    l.add(CxxLanguage.class);
+//    l.add(CxxProjectBuilder.class);
+//    l.add(CxxLanguage.class);
     l.add(CxxMetrics.class);
-    l.add(CxxSquidSensor.class);
-    l.add(CxxCpdMapping.class);
+//    l.add(CxxSquidSensor.class);
+//    l.add(CxxCpdMapping.class);
     l.add(CxxRatsRuleRepository.class);
     l.add(CxxRatsSensor.class);
     l.add(CxxXunitSensor.class);
@@ -418,17 +418,17 @@ public final class CxxPlugin extends SonarPlugin {
     l.add(CxxVeraxxSensor.class);
     l.add(CxxValgrindRuleRepository.class);
     l.add(CxxValgrindSensor.class);
-    l.add(CxxDefaultProfile.class);
-    l.add(CxxCommonRulesEngine.class);
-    l.add(CxxCommonRulesDecorator.class);
+//    l.add(CxxDefaultProfile.class);
+//    l.add(CxxCommonRulesEngine.class);
+//    l.add(CxxCommonRulesDecorator.class);
     l.add(CxxExternalRulesSensor.class);
     l.add(CxxExternalRuleRepository.class);
-    l.add(CxxRuleRepository.class);
+//    l.add(CxxRuleRepository.class);
     l.add(CxxUnitTestResultsAggregator.class);
     l.add(CxxUnitTestResultsImportSensor.class);
-    l.add(CxxSourceCodeColorizer.class);
+//    l.add(CxxSourceCodeColorizer.class);
 
-    l.addAll(generalProperties());
+//    l.addAll(generalProperties());
     l.addAll(codeAnalysisProperties());
     l.addAll(testingAndCoverageProperties());
     l.addAll(compilerWarningsProperties());
